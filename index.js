@@ -35,14 +35,13 @@ let heightOfSky = window.innerHeight-horizon;
 let heightOfGrass = horizon;
 
 
-
 enviroment('assets/sky.png', 0, horizon, window.innerWidth, heightOfSky/100);
 enviroment('assets/grass.png', 0, 0, window.innerWidth, heightOfGrass/100);
 
 newImage('assets/green-character.gif', 100, 100);
+newImage('assets/pine-tree.png', 450, 200);
 newImage('assets/tree.png', 200, 300);
 newImage('assets/pillar.png', 350, 100);
-newImage('assets/pine-tree.png', 450, 200);
 newImage('assets/crate.png', 150, 200);
 newImage('assets/well.png', 500, 425);
 
