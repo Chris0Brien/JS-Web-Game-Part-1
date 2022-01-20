@@ -30,7 +30,7 @@ function enviroment(url, left, bottom, width, height){
 }
 
 
-let horizon = window.innerHeight / 1.75;
+let horizon = window.innerHeight / 1.5;
 let heightOfSky = window.innerHeight-horizon;
 let heightOfGrass = horizon;
 
